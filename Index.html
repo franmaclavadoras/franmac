@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franmac - Conserto de Máquina de Lavar em Mauá e ABC</title>
+    <style>
+        :root {
+            --primary: #0056b3;
+            --secondary: #25d366;
+            --dark: #1a1a1a;
+            --light: #f8f9fa;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            color: var(--dark);
+            background-color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #fff;
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .btn-whatsapp {
+            background-color: var(--secondary);
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: 0.3s;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #1ebd58;
+            transform: translateY(-2px);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #eef5ff 0%, #fff 100%);
+            padding: 80px 5% 60px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            color: var(--dark);
+            margin-bottom: 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn-hero {
+            padding: 15px 35px;
+            font-size: 18px;
+        }
+
+        .section {
+            padding: 60px 5%;
+            text-align: center;
+        }
+
+        .section-bg {
+            background-color: var(--light);
+        }
+
+        .section h2 {
+            font-size: 28px;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        .section h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background-color: var(--primary);
+            margin: 10px auto 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border: 1px solid #eee;
+        }
+
+        .card-problem {
+            border-left: 4px solid #dc3545;
+            text-align: left;
+        }
+
+        .card-problem h3 {
+            margin-bottom: 10px;
+            color: #dc3545;
+        }
+
+        .brands-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #777;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .brands-container span {
+            background: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .testimonials {
+            background: linear-gradient(135deg, var(--primary) 0%, #003d82 100%);
+            color: #fff;
+        }
+
+        .testimonials h2::after {
+            background-color: #fff;
+        }
+
+        .testimonial-card {
+            background: rgba(255,255,255,0.1);
+            border: none;
+            color: #fff;
+            backdrop-filter: blur(5px);
+        }
+
+        .testimonial-card p {
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+
+        .testimonial-card span {
+            font-weight: bold;
+            color: #00e5ff;
+        }
+
+        footer {
+            background-color: var(--dark);
+            color: #aaa;
+            padding: 40px 5%;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 28px; }
+            .hero p { font-size: 16px; }
+            header { flex-direction: column; gap: 15px; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">🛠️ Franmac</div>
+        <a href="https://wa.me" class="btn-whatsapp" target="_blank">🟢 Chamar no WhatsApp</a>
+    </header>
+
+    <section class="hero">
+        <h1>Máquina de lavar quebrada ou fazendo barulho? Resolvemos hoje!</h1>
+        <p>A <strong>Franmac</strong> é especialista no conserto e manutenção de máquinas de lavar. Atendemos a domicílio em <strong>Mauá e em toda a região do ABC</strong> com rapidez, peças de qualidade e garantia por escrito.</p>
+        <a href="https://wa.me" class="btn-whatsapp btn-hero" target="_blank">📱 Solicitar Orçamento Grátis</a>
+    </section>
+
+    <section class="section">
+        <h2>Problemas Comuns que Resolv operação</h2>
+        <div class="grid">
+            <div class="card card-problem">
+                <h3>Não liga na tomada</h3>
+                <p>O painel pisca ou a lavadora simplesmente não dá nenhum sinal de vida elétrica.</p>
+            </div>
+            <div class="card card-problem">
+                <h3>Não solta água / Não centrifuga</h3>
+                <p>A máquina termina o ciclo cheia de água e não consegue torcer as roupas.</p>
+            </div>
+            <div class="card card-problem">
+                <h3>Barulho muito forte</h3>
+                <p>Sons de batida forte ou barulho parecido com uma turbina de avião na centrifugação.</p>
+            </div>
+            <div class="card card-problem">
+                <h3>Vazamento de água</h3>
+                <p>Presença de poças de água embaixo ou ao redor da máquina durante o ciclo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-bg">
+        <h2>Marcas que Atendemos</h2>
+        <div class="brands-container">
+            <span>Brastemp</span>
+            <span>Consul</span>
+            <span>Electrolux</span>
+            <span>Samsung</span>
+            <span>LG</span>
+            <span>Midea</span>
+            <span>Mueller</span>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Por que escolher a Franmac?</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>🏡 Atendimento em Casa</h3>
+                <p>Vamos até você em Mauá e ABC. Sem que você precise carregar peso ou sair de casa.</p>
+            </div>
+            <div class="card">
+                <h3>⚙️ Peças de Alta Qualidade</h3>
+                <p>Trabalhamos estritamente com componentes testados para garantir o perfeito funcionamento.</p>
+            </div>
+            <div class="card">
+                <h3>📜 Garantia do Serviço</h3>
+                <p>Todos os nossos reparos contam com garantia para a sua total segurança e tranquilidade.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section testimonials">
+        <h2>O que dizem nossos clientes</h2>
+        <div class="grid">
+            <div class="card testimonial-card">
+                <p>"Serviço excelente. Moro em Mauá, o técnico veio no mesmo dia, diagnosticou o problema da minha Brastemp e resolveu na hora. Recomendo!"</p>
+                <span>– Ricardo M.</span>
+            </div>
+            <div class="card testimonial-card">
+                <p>"Preço muito justo e atendimento transparente. Minha máquina Electrolux parou de fazer barulho após a troca do mecanismo. Nota 10!"</p>
+                <span>– Sônia Silva</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Franmac Consertos. Todos os direitos reservados.</p>
+        <p>📍 Atendimento Técnico Residencial em Mauá, Santo André, São Bernardo e São Caetano (ABC).</p>
+    </footer>
+
+</body>
+</html>
