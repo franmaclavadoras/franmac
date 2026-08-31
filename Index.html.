@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franmac Assistência Técnica | Máquina de Lavar</title>
+    <script src="https://tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Header / Nav -->
+    <header class="bg-blue-700 text-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-screwdriver-wrench text-2xl text-blue-300"></i>
+                <span class="text-2xl font-bold tracking-wide">FRANMAC</span>
+            </div>
+            <a href="https://wa.me" target="_blank" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full font-semibold flex items-center space-x-2 transition-all duration-300 transform hover:scale-105 shadow">
+                <i class="fa-brands fa-whatsapp text-lg"></i>
+                <span class="hidden sm:inline">Chamar no WhatsApp</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-800 to-blue-600 text-white py-20 px-4 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">Franmac Assistência Técnica em Máquina de Lavar</h1>
+            <p class="text-xl mb-8 text-blue-100">Sua lavadora com defeito? Nós resolvemos com rapidez, transparência e garantia no serviço.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="https://wa.me" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg transition-colors flex items-center justify-center space-x-3">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+                    <span>Agendar Visita Técnica</span>
+                </a>
+                <a href="#contato" class="bg-transparent border-2 border-white hover:bg-white hover:text-blue-800 text-white font-semibold text-lg px-8 py-4 rounded-xl transition-all">
+                    Ver Contatos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vantagens -->
+    <section class="py-16 px-4 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Por que escolher a Franmac?</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 text-center">
+                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-600 text-2xl">
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Atendimento Rápido</h3>
+                <p class="text-gray-600">Sabemos a falta que uma máquina faz. Atendemos com agilidade na sua região.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 text-center">
+                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-600 text-2xl">
+                    <i class="fa-solid fa-user-check"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Técnicos Qualificados</h3>
+                <p class="text-gray-600">Profissionais experientes prontos para diagnosticar e resolver o problema na hora.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 text-center">
+                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-600 text-2xl">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Garantia no Serviço</h3>
+                <p class="text-gray-600">Utilizamos peças de qualidade e oferecemos garantia total sobre a manutenção realizada.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marcas Atendidas Atalho -->
+    <section class="bg-gray-100 py-12 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <p class="text-sm font-semibold text-blue-600 uppercase tracking-wider mb-3">Marcas Principais</p>
+            <p class="text-xl text-gray-700 font-medium">Conserto e manutenção de lavadoras Brastemp, Electrolux, Consul, Samsung, LG e principais marcas do mercado.</p>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="py-16 px-4 max-w-4xl mx-auto">
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden grid md:grid-cols-5">
+            <div class="bg-blue-700 text-white p-8 md:col-span-2 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Fale Conosco</h3>
+                    <p class="text-blue-100 mb-8">Entre em contato para tirar dúvidas ou solicitar um orçamento sem compromisso.</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <i class="fa-solid fa-phone text-blue-300"></i>
+                        <span class="font-medium">(11) 98222-4520</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <i class="fa-solid fa-envelope text-blue-300 text-sm"></i>
+                        <span class="text-sm break-all">nildorbnildo@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="p-8 md:col-span-3 flex flex-col justify-center items-center text-center">
+                <i class="fa-brands fa-whatsapp text-6xl text-green-500 mb-4"></i>
+                <h4 class="text-2xl font-bold mb-2">Chame no WhatsApp</h4>
+                <p class="text-gray-600 mb-6">O jeito mais rápido de agendar sua manutenção.</p>
+                <a href="https://wa.me" target="_blank" class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-xl transition-colors inline-block shadow">
+                    Iniciar Conversa
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center text-sm border-t border-gray-800">
+        <p>&copy; 2026 Franmac Assistência Técnica. Todos os direitos reservados.</p>
+        <p class="mt-1 text-gray-600">Desenvolvido por nildorbnildo</p>
+    </footer>
+
+</body>
+</html>
